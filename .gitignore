@@ -1,0 +1,7 @@
+log/
+checkpoints/
+*.pyc
+output/
+*.df
+__pycache__
+ref
