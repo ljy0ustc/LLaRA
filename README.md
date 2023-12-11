@@ -12,7 +12,7 @@
 
 2. Prepare the pre-trained huggingface model of LLaMA2-7B (https://huggingface.co/meta-llama/Llama-2-7b-hf).
 
-3. Download the data and checkpoints from https://drive.google.com/drive/folders/16I295mTyjnj97QVJud4LbCQ2lcGHqmY4?usp=drive_link.
+3. Download the data and checkpoints. (We will release the checkpoints and datasets after acceptance.)
 
 4. Prepare the data and checkpoints:
 
