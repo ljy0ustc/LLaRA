@@ -135,5 +135,7 @@ if __name__ == '__main__':
         args.padding_item_id = 1682
     elif 'steam' in args.data_dir:
         args.padding_item_id = 3581
+    elif 'lastfm' in args.data_dir:
+        args.padding_item_id = 4606
 
     main(args)

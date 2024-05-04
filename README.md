@@ -1,5 +1,6 @@
 # LLaRA
 
+- *2024.5*: We have updated the Steam dataset to a new version, in which we've addressed an issue that led to the repetition of certain data in the last interacted item of sequence.
 - 🔥 *2024.3*: Our paper is accepted by SIGIR'24! Thank all Collaborators! 🎉🎉
 - 🔥 *2024.3*: Our [datasets](https://huggingface.co/datasets/joyliao7777/LLaRA) and [checkpoints](https://huggingface.co/joyliao7777/LLaRA) are released on the huggingface.
   
@@ -23,7 +24,7 @@
 
 ##### Train LLaRA
 
-Train LLaRA with a single A100 GPU on the MovieLens dataset:
+Train LLaRA with a single A100 GPU on MovieLens dataset:
 
 ```sh
 sh train_movielens.sh
@@ -35,11 +36,17 @@ Train LLaRA with a single A100 GPU on Steam dataset:
 sh train_steam.sh
 ```
 
-Note that: set the `llm_path` argument with your own directory path of the LLaMA2 model.
+Train LLaRA with a single A100 GPU on LastFM dataset:
+
+```sh
+sh train_lastfm.sh
+```
+
+Note that: set the `llm_path` argument with your own directory path of the Llama2 model.
 
 ##### Evaluate LLaRA
 
-Test LLaRA with a single A100 GPU on the MovieLens dataset:
+Test LLaRA with a single A100 GPU on MovieLens dataset:
 
 ```sh
 sh test_movielens.sh
@@ -49,4 +56,10 @@ Test LLaRA with a single A100 GPU on Steam dataset:
 
 ```sh
 sh test_steam.sh
+```
+
+Test LLaRA with a single A100 GPU on LastFM dataset:
+
+```sh
+sh test_lastfm.sh
 ```

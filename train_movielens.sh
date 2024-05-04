@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=1 python main.py \
 --rec_embed SASRec \
 --llm_tuning lora \
 --llm_path ../llama/models_hf/7B \
---rec_model_path ./rec_model/SASRec_movielens.pt \
+--rec_model_path ./rec_model/movielens.pt \
 --ckpt_dir ./checkpoints/movielens/ \
 --output_dir ./output/movielens/ \
 --log_dir movielens_logs \
