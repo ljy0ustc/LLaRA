@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--accelerator', default='gpu', type=str)
     parser.add_argument('--devices', default=-1, type=int)
-    parser.add_argument('--precision', default=16, type=int)
+    parser.add_argument('--precision', default='bf16', type=str)
     parser.add_argument('--amp_backend', default="native", type=str)
 
     parser.add_argument('--batch_size', default=8, type=int)

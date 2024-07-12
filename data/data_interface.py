@@ -37,7 +37,7 @@ class TrainCollater:
         
         thresh_hold = self.cur_step/self.max_step
         p = random.random()
-        if p > thresh_hold:
+        if p < thresh_hold or not self.train:
             for i, sample in enumerate(batch):
                 input_text=inputs_text[i]
                 if '[HistoryHere]' in input_text:
