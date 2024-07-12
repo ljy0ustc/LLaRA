@@ -10,7 +10,7 @@ python main.py \
 --llm_tuning lora \
 --llm_path xxx \
 --rec_model_path ./rec_model/movielens.pt \
---ckpt_dir ./new_checkpoints/movielens/ \
+--ckpt_dir ./checkpoints/movielens/ \
 --output_dir ./output/movielens/ \
 --log_dir movielens_logs \
 --lr_warmup_start_lr 8e-6 \
